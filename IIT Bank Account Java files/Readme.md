@@ -7,11 +7,11 @@
 ## 1)	AccountHolder.java
 
 /**
- * 
- * @author Shivank
- *@version 1.3
- *@since 2017/09/13
- */
+* 
+* @author Shivank
+*@version 1.3
+*@since 2017/09/13
+*/
 public class AccountHolder {
 	private static double annualInterestRate;
 	private double balance = 0;
@@ -102,6 +102,7 @@ public class AccountHolder {
 			return String.format("$%.2f", balance);
 		}
 	}
+	
 ## 2)	AccountHolderTest.java
 
 import java.text.SimpleDateFormat;
@@ -162,17 +163,18 @@ public class AccountHolderTest {
 		System.out.println("Curr dt=" + timeStamp + "\nProgrammed by Shivank Saxena ");
 	}
 }
+
 ## 3)	JUnit.java
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 /**
- * 
- * @author Shivank
- *@version 1.3
- *@since 2017/09/15
- */
+* 
+* @author Shivank
+*@version 1.3
+*@since 2017/09/15
+*/
 public class JUnit {
 AccountHolder shivankAccount = new AccountHolder (1);
 
