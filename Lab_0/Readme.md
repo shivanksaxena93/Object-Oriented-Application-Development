@@ -1,8 +1,8 @@
-### /* 
+
 ### Program to calculate the volume and surface area of a
 ### right circular cylinder.      
 ### Programmer: Shivank Saxena, File Name: Cylinder.java 
-### */
+
 
 //package for Scanner class objects
 import java.util.Scanner;
@@ -54,4 +54,4 @@ public static void main(String args[])
 }
 
 ## Result
-![]()
+![Output](https://github.com/ssaxena12/Object-Oriented-Application-Development/blob/master/Lab_0/Output.PNG)
