@@ -1,10 +1,10 @@
-PROJECT – 1 Program to simulate Bank Account
+# PROJECT – 1 Program to simulate Bank Account
 
-Objective: To design a code for operating Bank Account and its Transactions.
+## Objective: To design a code for operating Bank Account and its Transactions.
 
-PROJECT CODE
+## PROJECT CODE
 
-1)	AccountHolder.java
+## 1)	AccountHolder.java
 
 /**
  * 
@@ -102,7 +102,7 @@ public class AccountHolder {
 			return String.format("$%.2f", balance);
 		}
 	}
-2)	AccountHolderTest.java
+## 2)	AccountHolderTest.java
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -162,7 +162,7 @@ public class AccountHolderTest {
 		System.out.println("Curr dt=" + timeStamp + "\nProgrammed by Shivank Saxena ");
 	}
 }
-3)	JUnit.java
+## 3)	JUnit.java
 
 import static org.junit.Assert.*;
 
@@ -205,55 +205,31 @@ AccountHolder shivankAccount = new AccountHolder (1);
 }
 
 
+## RESULTS:
+### Entering the initial balance
+![Entering the initial balance](https://github.com/ssaxena12/Object-Oriented-Application-Development/blob/master/IIT%20Bank%20Account%20Java%20files/Images/1%20-%20Entering%20the%20Initial%20Balance.PNG)
 
+### Final balance including the add on amount
+![Final balance including the add on amount](https://github.com/ssaxena12/Object-Oriented-Application-Development/blob/master/IIT%20Bank%20Account%20Java%20files/Images/2%20-%20Final%20Balance%20including%20the%20add%20on%20amount.PNG)
 
+### Entering the withdrawal balance
+![Entering the withdrawal balance](https://github.com/ssaxena12/Object-Oriented-Application-Development/blob/master/IIT%20Bank%20Account%20Java%20files/Images/3%20-%20Withdrawl%20Balance.PNG)
 
+### Entering initial interest Rate of 4% and capturing revised balances
+![Entering initial interest Rate of 4% and capturing revised balances](https://github.com/ssaxena12/Object-Oriented-Application-Development/blob/master/IIT%20Bank%20Account%20Java%20files/Images/4%20-%20Entering%20Initial%20Interest%20Rate%20with%20Revised%20Balance.PNG)
 
+### Modifying the interest rate to 5% and capturing new balance
+![Modifying the interest rate to 5% and capturing new balance](https://github.com/ssaxena12/Object-Oriented-Application-Development/blob/master/IIT%20Bank%20Account%20Java%20files/Images/5%20-%20Modifying%20the%20Interest%20Rate%20and%20Capturing%20new%20Rate.PNG)
 
+### Amount less than 500 will charge $50 as a transaction fees
+![Amount less than 500 will charge $50 as a transaction fees](https://github.com/ssaxena12/Object-Oriented-Application-Development/blob/master/IIT%20Bank%20Account%20Java%20files/Images/6%20-%20Amount%20Less%20than%20500%20will%20charge%20%2450%20as%20a%20transaction%20fees.PNG)
 
+### Failing of transaction while balance goes below $100
+![Failing of transaction while balance goes below $100](https://github.com/ssaxena12/Object-Oriented-Application-Development/blob/master/IIT%20Bank%20Account%20Java%20files/Images/7%20-%20Failing%20of%20Transaction%20while%20balance%20goes%20below%20%24100.PNG)
 
+### Reattempting to enter new amount and more thn 2 transation it fails take any more attempts
+![Reattempting to enter new amount and more thn 2 transation it fails take any more attempts](https://github.com/ssaxena12/Object-Oriented-Application-Development/blob/master/IIT%20Bank%20Account%20Java%20files/Images/8%20-%20Reattempting%20to%20enter%20new%20amount%20and%20more%20thn%202%20transation%20it%20fails%20take%20any%20more%20attempts.PNG)
 
-
-RESULTS:
-Entering the initial balance
-
- 
-
-
-
-Final balance including the add on amount
-
- 
-
-
-Entering the withdrawal balance
-
- 
-
-Entering initial interest Rate of 4% and capturing revised balances
-
- 
-
-
-Modifying the interest rate to 5% and capturing new balance
-
- 
-Amount less than 500 will charge $50 as a transaction fees
-
- 
-
-Failing of transaction while balance goes below $100
-
- 
-
-
-Reattempting to enter new amount and more thn 2 transation it fails take any more attempts
-
- 
-
-
-
-
-JTEST OUPUT:
-
+### JTEST OUPUT:
+![JTEST OUPUT](https://github.com/ssaxena12/Object-Oriented-Application-Development/blob/master/IIT%20Bank%20Account%20Java%20files/Images/9%20-%20JTest%20output.PNG)
  
