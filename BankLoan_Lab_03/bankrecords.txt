@@ -1,0 +1,28 @@
+
+City's Average Income :27752.87
+Town's Average Income :26802.19
+Suburb's Average Income :28656.35693548387
+Rural's Average Income :30027.60541666667
+
+City's Max Income :266222.80
+Town's Max Income :59803.9
+Suburb's Max Income :63130.10
+Rural's Max Income :57398.10
+
+City's Min Income :6294.21
+Town's Min Income :5014.21
+Suburb's Min Income :8143.75
+Rural's Min Income :8639.24
+
+Innercity region females with mort & savings acct: 31
+Rural region females with mort & savings acct: 9
+suburban region females with mort & savings acct: 4
+Town region females with mort & savings acct: 27
+
+Count of Inner city region males having a child and owning a car :15
+Count of Rural region males having a child and owning a car : 9
+Count of Suburban city region males having a child and owning a car :3
+Count of Town city region males having a child and owning a car :7
+
+Dated on :2017/10/22 16:24:08
+Programmed by Shivank
